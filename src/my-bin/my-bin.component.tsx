@@ -1,7 +1,7 @@
 // styles
-import "./MyBin.css";
+import "./my-bin.style.css";
 // types
-import { MyBinInterface } from "../../types";
+import { MyBinInterface } from "../types";
 
 export const MyBin = ({
   week,
@@ -9,5 +9,5 @@ export const MyBin = ({
 }: MyBinInterface): JSX.Element | null => {
   if (!week || !binColour) return null;
 
-  return <h2>Blue {week} </h2>;
+  return <h2> {binColour} </h2>;
 };
