@@ -11,7 +11,7 @@ import { getWeekNumber } from "../helpers/getWeekNumber";
 import { useBinColour } from "../hooks/useBinColour";
 
 export function App() {
-  const weekNumber: number = getWeekNumber(new Date(2021, 3, 3));
+  const weekNumber: number = getWeekNumber(new Date());
   const binColour = useBinColour(weekNumber);
   console.log("binColour =", binColour);
   console.log("weekNumber =", weekNumber);
