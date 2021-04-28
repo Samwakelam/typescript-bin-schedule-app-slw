@@ -2,22 +2,22 @@ div.App {
   display: flex;
   flex-flow: column;
 
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
-header {
+/* header {
   padding: 12px;
   
   background-color: lightgrey;
-}
+} */
 
-main {
+/* main {
   flex-grow: 1;
   padding: 12px;
-}
+} */
 
-footer {
+/* footer {
   padding: 12px;
 
-  background-color: lightgrey;
-}
+  background-color: var(--darkestGrey);
+} */
