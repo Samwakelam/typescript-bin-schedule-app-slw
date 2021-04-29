@@ -1,25 +1,28 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bin Day",
+  "name": "Bin Day Schedular",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "assets/bin-icon.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png",
+      "purpose" : "maskable any"
     },
     {
-      "src": "logo192.png",
+      "src": "assets/manifest/192-bin.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose" : "maskable any"
     },
     {
-      "src": "logo512.png",
+      "src": "assets/manifest/512-bin.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose" : "maskable any"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#a9c09a",
+  "background_color": "#ffefd5"
 }
