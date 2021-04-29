@@ -5,7 +5,7 @@ This application is designed for a very simple application:
 What Bin is it this week?
 
 ![Black Bin](public/assets/screenshots/screenshot-black.png)
-![Green Bin](public/assets/screenshots/screenshot-Green.png)
+![Green Bin](public/assets/screenshots/screenshot-green.png)
 
 The application shows the user the week of the year they are in and the colour of the bin to put out.
 
