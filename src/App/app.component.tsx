@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./app.style.css";
 
 //components
@@ -15,6 +15,28 @@ export function App() {
   const binColour = useBinColour(weekNumber);
   // console.log("binColour =", binColour);
   // console.log("weekNumber =", weekNumber);
+
+  useEffect(() => {
+    // service worker
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        // service worker container
+        navigator.serviceWorker
+          .register(`${process.env.PUBLIC_URL}/service-worker.js`, {
+            scope: `${process.env.PUBLIC_URL}/`,
+          })
+          .then((registration) => {
+            console.log(
+              "Service worker has loaded successfully.",
+              registration
+            );
+          })
+          .catch((err) => {
+            console.log("service worker has not loaded successfully.", err);
+          });
+      });
+    }
+  }, []);
 
   return (
     <div className="App">
