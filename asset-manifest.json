@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/typescript-bin-schedule-app-slw/static/css/main.0d37a021.chunk.css",
+    "main.js": "/typescript-bin-schedule-app-slw/static/js/main.4c0137fe.chunk.js",
+    "main.js.map": "/typescript-bin-schedule-app-slw/static/js/main.4c0137fe.chunk.js.map",
+    "runtime-main.js": "/typescript-bin-schedule-app-slw/static/js/runtime-main.7f668509.js",
+    "runtime-main.js.map": "/typescript-bin-schedule-app-slw/static/js/runtime-main.7f668509.js.map",
+    "static/js/2.d73c6a59.chunk.js": "/typescript-bin-schedule-app-slw/static/js/2.d73c6a59.chunk.js",
+    "static/js/2.d73c6a59.chunk.js.map": "/typescript-bin-schedule-app-slw/static/js/2.d73c6a59.chunk.js.map",
+    "index.html": "/typescript-bin-schedule-app-slw/index.html",
+    "static/css/main.0d37a021.chunk.css.map": "/typescript-bin-schedule-app-slw/static/css/main.0d37a021.chunk.css.map",
+    "static/js/2.d73c6a59.chunk.js.LICENSE.txt": "/typescript-bin-schedule-app-slw/static/js/2.d73c6a59.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f668509.js",
+    "static/js/2.d73c6a59.chunk.js",
+    "static/css/main.0d37a021.chunk.css",
+    "static/js/main.4c0137fe.chunk.js"
+  ]
+}
