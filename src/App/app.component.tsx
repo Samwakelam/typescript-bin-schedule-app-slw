@@ -13,8 +13,8 @@ import { useBinColour } from "../hooks/useBinColour";
 export function App() {
   const weekNumber: number = getWeekNumber(new Date());
   const binColour = useBinColour(weekNumber);
-  console.log("binColour =", binColour);
-  console.log("weekNumber =", weekNumber);
+  // console.log("binColour =", binColour);
+  // console.log("weekNumber =", weekNumber);
 
   return (
     <div className="App">

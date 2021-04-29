@@ -5,7 +5,7 @@ import { MyBinInterface } from "../types";
 import { StyledFooter } from "./footer.style";
 
 export const Footer = ({ binColour }: MyBinInterface) => {
-  console.log("styledFooter =", StyledFooter);
+  // console.log("styledFooter =", StyledFooter);
   return (
     <StyledFooter
       footerColour={
