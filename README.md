@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Bin Day
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is designed for a very simple application:
 
-## Available Scripts
+What Bin is it this week?
 
-In the project directory, you can run:
+![Black Bin](public/assets/screenshots/screenshot-black.png)
+![Green Bin](public/assets/screenshots/screenshot-Green.png)
 
-### `yarn start`
+The application shows the user the week of the year they are in and the colour of the bin to put out.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. [Purpose](#purpose)
+2. [Technologies and Dependencies](#technologies-and-dependencies)
+3. [Development](#development)
+4. [Updates](#updates)
+5. [License](#license)
 
-### `yarn test`
+## Purpose
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The purpose of this project was to test out TypeScript, having never used it before this was a great simple application to start on.
 
-### `yarn build`
+## Technologies and Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For this project I have used:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- TypeScript
+- HTML
+- Javascript
+- Styled Components
+- CSS
+- React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project Dependencies are:
 
-### `yarn eject`
+- React
+- GH-Pages
+- Styled-Components
+- TypeScript
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Development
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To further develop this application I can introduce:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Ability to choose a bin day
+- Program in multiple bin days and the associated colour
+- Have user log in for more access to the application.
+- Add Notifications for your bin day.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Updates
 
-## Learn More
+There are no Updates at this time
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+All graphics are copyright to Samantha Wakelam and may not be used without express permission.
+
+Open source Code is
+Licensed under the MIT License.
+
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.

@@ -9,7 +9,7 @@ import {
 } from "./titles.style";
 
 export const Titles = ({ week, binColour }: MyBinInterface) => {
-  console.log("styledHeader=", StyledHeader);
+  // console.log("styledHeader=", StyledHeader);
   return (
     <StyledHeader
       headerColour={
