@@ -2,20 +2,20 @@
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
-  ".",
+  // ".",
   "/manifest.json",
   "/index.html",
-  "/sw.js",
+  // "/sw.js",
 
-  "/assets/manifest/144-bin.png",
-  "/assets/manifest/192-bin.png",
-  "/assets/manifest/256-bin.png",
-  "/assets/manifest/384-bin.png",
-  "/assets/manifest/512-bin.png",
+  // "/assets/manifest/144-bin.png",
+  // "/assets/manifest/192-bin.png",
+  // "/assets/manifest/256-bin.png",
+  // "/assets/manifest/384-bin.png",
+  // "/assets/manifest/512-bin.png",
 
-  "/assets/bin-icon.png",
-  "/assets/Black-bin.png",
-  "/assets/Green-bin.png",
+  // "/assets/bin-icon.png",
+  // "/assets/Black-bin.png",
+  // "/assets/Green-bin.png",
 ];
 // install
 self.addEventListener("install", function (evt) {
@@ -88,3 +88,18 @@ self.addEventListener("fetch", function (evt) {
     })
   );
 });
+
+// service worker
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    // service worker container
+    navigator.serviceWorker
+      .register(`/service-worker.js`, { scope: "/" })
+      .then((registration) => {
+        console.log("Service worker has loaded successfully.", registration);
+      })
+      .catch((err) => {
+        console.log("service worker has not loaded successfully.", err);
+      });
+  });
+}
