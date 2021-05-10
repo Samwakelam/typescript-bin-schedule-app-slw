@@ -6,15 +6,13 @@ import { MyBin } from "../my-bin/my-bin.component";
 import { Titles } from "../titles/titles.component";
 import { Footer } from "../footer/footer.component";
 // functions
-import { getWeekNumber } from "../helpers/getWeekNumber";
+import { getWeekNumber } from "../helpers/getWeekNumber.helper";
 // hooks
-import { useBinColour } from "../hooks/useBinColour";
+import { useBinColour } from "../hooks/useBinColour.hook";
 
 export function App() {
   const weekNumber: number = getWeekNumber(new Date());
   const binColour = useBinColour(weekNumber);
-  // console.log("binColour =", binColour);
-  // console.log("weekNumber =", weekNumber);
 
   useEffect(() => {
     // service worker

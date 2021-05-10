@@ -5,10 +5,5 @@ export const getWeekNumber = (date: Date): number => {
 
   const weekNumber: number = Math.ceil((todayDate.getDay() + 1 + numDays) / 7);
 
-  // console.log('todayDate =', todayDate);
-  // console.log('firstJan =', firstJan);
-  // console.log('numDays =', numDays);
-  // console.log('weekNumber =', weekNumber);
-
   return weekNumber;
 };

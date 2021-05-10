@@ -19,7 +19,7 @@ export const MyBin = ({
         src={`${process.env.PUBLIC_URL}/assets/${
           binColour === "Green" ? "Green" : "Black"
         }-bin.png`}
-        alt="Green Bin"
+        alt={binColour === "Green" ? "Green Bin" : "Black Bin"}
       />
     </StyledMain>
   );
