@@ -1,9 +1,9 @@
-import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
+import "@testing-library/jest-dom";
+
 import { App } from "./app.component";
 
-test("renders learn react link", () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("App has rendered", () => {
+  const result = render(<App />);
+  expect(result.getByText("This Week's Bin Colour Is:")).toBeInTheDocument();
 });
