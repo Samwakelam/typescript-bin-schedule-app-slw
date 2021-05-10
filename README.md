@@ -39,6 +39,13 @@ Project Dependencies are:
 - Styled-Components
 - TypeScript
 
+Development dependencies: 
+
+- Jest.js
+- testing-library/react-hooks
+- styled-components
+- testing-library/react
+
 ## Development
 
 To further develop this application I can introduce:
@@ -50,7 +57,8 @@ To further develop this application I can introduce:
 
 ## Updates
 
-There are no Updates at this time
+(2021, 05, 10) 
+- Testing added to all utilites and component files. 
 
 ## License
 
